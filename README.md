@@ -3,6 +3,7 @@ This repository contains the codes used for simulating the cases discussed in th
 We investigate the dynamics of an oil drop impacting an identical sessile drop sitting on a superamphiphobic surface.
 On this page, I am presenting the code that we used to simulate the process shown in the above video. The results presented here are currently under review in Science Advances. For a detailed documentation on the code included in the manuscript, please visit [my Basilisk sandbox](http://basilisk.fr/sandbox/vatsal/DropOnDropImpact/dropOnDropImpact.c).
 
+## Offset parameter
 In the manuscript, offset parameter $\chi$ is defined as:
 $$
 \chi = \frac{d}{2R}
