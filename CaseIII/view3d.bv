@@ -1,0 +1,4 @@
+view (fov = 8.21766, quat = {0.606477,0.0792211,0.10506,0.784139}, tx = -0.0611805, ty = -0.0779752, bg = {1,1,1}, width = 1920, height = 1136, samples = 1);
+draw_vof("f1", edges=false, fc = {0.6, 0.835 , 0.580});
+draw_vof("f2", edges=false, fc = {0.91, 0.41, 0.17});
+cells(n = {0, 1, 0} );
