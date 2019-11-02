@@ -56,18 +56,3 @@ export OMP_NUM_THREADS=8
 ~~~
 
 **Step 2:** Follow the method described [(here)](http://basilisk.fr/src/Tips#running-on-supercomputers). Do not forget to use the dump file generated in the previous step.
-
-# Output and Results
-The post-processing codes and simulation data are available at: [PostProcess](https://www.dropbox.com/sh/dgrzvobxiyrw86i/AAAQii9uMCu0MfR897V4Fxw2a?dl=0)
-
-## The process
-<p align="center">
-<video width="50%" controls>
-  <source src="https://www.dropbox.com/s/p3e4cmzfy2b8qc8/CaseIII_Numerics.mp4?dl=1" type="video/mp4">
-  <caption><p align="center">Impacting drop slides-off the sessile drop. It glides on the thin air layer. We model this non-coalescence effect by assuming two VoF tracers for the two drops. $We = 1.50$ and $\chi = 0.25$. </caption>
-</video>
-## Velocity vectors and the field at the Y = 0 slice
-<p align="center">
-<video width="50%" controls>
-  <source src="https://www.dropbox.com/s/d1wjik0emrg3yw9/CaseIII_NumericsVelocityVectors.mp4?dl=1" type="video/mp4">
-</video>
