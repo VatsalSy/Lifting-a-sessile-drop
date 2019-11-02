@@ -5,10 +5,9 @@ On this page, I am presenting the code that we used to simulate the process show
 
 ## Offset parameter
 In the manuscript, offset parameter $\chi$ is defined as:
+
 ```math
-$$
 \chi = \frac{d}{2R}
-$$
 ```
 
 Here, $d$ is the distance between the axes of two drops, and $R$ is the equivalent radius of the drop. In the simulations, we input $2\chi$ (as the length scale is $R$).
