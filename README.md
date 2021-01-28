@@ -1,14 +1,32 @@
 # Lifting-a-sessile-drop
-This repository contains the codes used for simulating the cases discussed in the manuscript: Lifting a sessile oil drop with an impacting one.
+
+This repository contains the codes used for simulating the cases discussed in the manuscript: Lifting a sessile oil drop from a superamphiphobic surface with an impacting one [(link)](https://advances.sciencemag.org/content/6/34/eaba4330.abstract).
+
+
+You can use the following article citation:
+
+```
+@article{ramirez2020lifting,
+  title={Lifting a sessile oil drop from a superamphiphobic surface with an impacting one},
+  author={Ram{\'\i}rez-Soto, O. and Sanjay, V. and Lohse, D. and Pham, J. T. and Vollmer, D.},
+  journal={Science advances},
+  volume={6},
+  number={34},
+  pages={eaba4330},
+  year={2020},
+  publisher={American Association for the Advancement of Science}
+} 
+```
+
 We investigate the dynamics of an oil drop impacting an identical sessile drop sitting on a superamphiphobic surface.
-On this page, I am presenting the code that we used to simulate the process shown in the above video. The results presented here are currently under review in Science Advances. For a detailed documentation on the code included in the manuscript, please visit [my Basilisk sandbox](http://basilisk.fr/sandbox/vatsal/DropOnDropImpact/dropOnDropImpact.c).
+On this page, I am presenting the code that we used to simulate the process shown in the above video. For a more detailed documentation on the code included in the manuscript, please visit [my Basilisk sandbox](http://basilisk.fr/sandbox/vatsal/DropOnDropImpact/dropOnDropImpact.c).
 
 ## Offset parameter
 In the manuscript, offset parameter $\chi$ is defined as:
 $$
 \chi = \frac{d}{2R}
 $$
-Here, $d$ is the distance between the axes of two drops, and $R$ is the equivalent radius of the drop. In the simulations, we input $2\chi$ (as the length scale is $R$).
+Here, $d$ is the distance between the axes of two drops, and $R$ is the equivalent radius of the drop. In the simulations, we input $2\chi$ (because the length scale is $R$).
 
 Weber number is based on the impact velocity, $U_0$.
 $$ We = \frac{\rho_lU_0^2R}{\gamma} $$
@@ -24,10 +42,10 @@ $$
 \hat{A} = (f_1+f_2) + (1-f_1-f_2)\frac{A_g}{A_l}
 $$
 
-Ohnesorge number $Oh$: measure between surface tension and viscous forces.
+Ohnesorge number $Oh$ is a measure of viscous forces as compared to inertia and surface tension forces.
 $$ Oh = \frac{\mu_l}{\sqrt{\rho_l\gamma R}} $$
 
-Bond number $Bo$: measure between Gravity and surface tension.
+Bond number $Bo$ is a measure between Gravity and surface tension.
 $$ Bo = \frac{\rho_lgR^2}{\gamma} $$
 
 **Note:** The subscript $l$ denotes liquid. Also, the radius used in the dimensionless numbers is the equivalent radius of the drops $\left(R = \left(3\pi V_l/4\right)^{1/3}\right)$. $V_l$ is the volume of the two drops.
