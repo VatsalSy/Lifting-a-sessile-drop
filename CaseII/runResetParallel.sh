@@ -1,3 +1,5 @@
+#!/bin/bash
+# This file cleans the folder and runs the code to load the .stl file. See dropOnDropImpact.c for details.
 if [ -f "log" ];
 then
 rm log
