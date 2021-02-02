@@ -41,33 +41,9 @@ On this page, I am presenting the code that we used to simulate the process show
 
 Here is a typical experiment:
 
-* [Experimental Video](https://www.dropbox.com/s/24ttgnc0hsnb94m/CaseIII_Experiment.mp4?dl=0)
-
-<pre><code class="language-html">
-<p align="center">
-<video width="20%" controls>
-  <source src="https://www.dropbox.com/s/24ttgnc0hsnb94m/CaseIII_Experiment.mp4?dl=1" type="video/mp4">
-  <caption><p align="center">Experiment: Impact of a hexadecane oil drop on another drop (of the same liquid) sitting on a superamphiphobic substrate. Experiment was done by [Olinka Soto](https://pof.tnw.utwente.nl/people/profile/1052). Impact Weber number, $We=1.44$, and the offset between the axes of the two drops is 0.48 times the equivalent radius of the drops.</caption>
-</video>
-</code></pre>
-
-* [Simulation Video: The process](https://www.dropbox.com/s/p3e4cmzfy2b8qc8/CaseIII_Numerics.mp4?dl=0)
-
-<pre><code class="language-html">
-<p align="center">
-<video width="50%" controls>
-  <source src="https://www.dropbox.com/s/p3e4cmzfy2b8qc8/CaseIII_Numerics.mp4?dl=1" type="video/mp4">
-</video>
-</code></pre>
-
+* [Experimental Video](https://www.dropbox.com/s/24ttgnc0hsnb94m/CaseIII_Experiment.mp4?dl=0): Impact of a hexadecane oil drop on another drop (of the same liquid) sitting on a superamphiphobic substrate. Experiment was done by [Olinka Soto](https://pof.tnw.utwente.nl/people/profile/1052). Impact Weber number, $We=1.44$, and the offset between the axes of the two drops is 0.48 times the equivalent radius of the drops.
+* [Simulation Video: The process](https://www.dropbox.com/s/p3e4cmzfy2b8qc8/CaseIII_Numerics.mp4?dl=0) -- Impacting drop slides-off the sessile drop. It glides on the thin air layer. We model this non-coalescence effect by assuming two VoF tracers for the two drops. $We = 1.50$ and $\chi = 0.25$.
 * [Simulation Video: Velocity Field](https://www.dropbox.com/s/d1wjik0emrg3yw9/CaseIII_NumericsVelocityVectors.mp4?dl=0)
-<pre><code class="language-html">
-<p align="center">
-<video width="50%" controls>
-  <source src="https://www.dropbox.com/s/d1wjik0emrg3yw9/CaseIII_NumericsVelocityVectors.mp4?dl=1" type="video/mp4">
-  <caption><p align="center">Impacting drop slides-off the sessile drop. It glides on the thin air layer. We model this non-coalescence effect by assuming two VoF tracers for the two drops. $We = 1.50$ and $\chi = 0.25$. </caption>
-</video>
-</code></pre>
 
 # Numerical code
 Id 1 is for the sessile drop, and Id 2 is mobile/impacting drop.
