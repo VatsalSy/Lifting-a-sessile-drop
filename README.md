@@ -11,7 +11,9 @@ header-includes:
   - \hypersetup{colorlinks}
 ---
 
-# Lifting-a-sessile-drop
+---
+title: Lifting a sessile drop
+---
 
 This repository contains the codes used for simulating the cases discussed in the manuscript: Lifting a sessile oil drop from a superamphiphobic surface with an impacting one [(link)](https://advances.sciencemag.org/content/6/34/eaba4330.abstract).
 
@@ -22,7 +24,7 @@ You can use the following article citation:
 @article{ramirez2020lifting,
   title={Lifting a sessile oil drop from a superamphiphobic surface with an impacting one},
   author={Ram{\'\i}rez-Soto, O. and Sanjay, V. and Lohse, D. and Pham, J. T. and Vollmer, D.},
-  journal={Science advances},
+  journal={Science Advances},
   volume={6},
   number={34},
   pages={eaba4330},
@@ -31,7 +33,11 @@ You can use the following article citation:
 } 
 ```
 
-**Note** Use the raw source file available as dropOnDropImpact.c, present in all the folders in this repository.
+**Note** Use the raw source file available as dropOnDropImpact.c, present in all the folders in this repository to run simulations. 
+
+## Prerequisite
+
+You need to install [Basilisk C](http://basilisk.fr). Follow the installation steps [here](http://basilisk.fr/src/INSTALL). In case of compatibility issues, please feel free to contact me: [vatsalsanjay@gmail.com](mailto:vatsalsanjay@gmail.com). For post-processing codes, Python 3.X is required. The VoF facets in three-dimensions are plotted using an old implementation of Basilisk View (bview3D) using the Python 2.X interface. I am yet to test the code for the newer Javascript implementation of Basilisk (see: [link](http://basilisk.fr/src/jview/README)). 
 
 ## Introduction
 We investigate the dynamics of an oil drop impacting an identical sessile drop sitting on a superamphiphobic surface.
